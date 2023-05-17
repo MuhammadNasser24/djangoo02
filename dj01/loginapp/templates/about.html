@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<title>Login</title>
+<body>
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            {{lf}}
+            <br>
+            <input type="submit" value="save">
+        </form>
+    </div>
+</body>
+</html>

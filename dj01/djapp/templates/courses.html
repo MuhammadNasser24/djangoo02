@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<title>Courses</title>
+<body>
+    <h1>Courses Details</h1>
+    <ul>
+       {% for cr in crs %}
+       <li>
+            {{cr.name}} & {{cr.location}} & {{cr.type_of_cource}}        
+       </li>
+       {% endfor %}
+    </ul>
+
+</body>
+</html>
